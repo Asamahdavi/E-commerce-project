@@ -60,9 +60,9 @@
   .search .f_flex {
     justify-content: end;
   }
-  /*------search-----------*/
+ 
   .catgrories {
-    background-color: #f6f9fc;
+    background-color: #fdf3fb;
     padding: 0px 30px;
     border-radius: 5px;
     height: 6vh;
@@ -96,7 +96,7 @@
     font-weight: 400;
   }
   header ul li a:hover {
-    color: #39978f;
+    color: #31cec1;
   }
   
   .open {
@@ -153,8 +153,8 @@
       right: 45%;
     }
     .close.home-btn {
-      background: linear-gradient(145deg, #e2e8ec, #ffffff);
-      color: #ff014f;
+      background: linear-gradient(145deg, #fcfcfc, #ffd5ef);
+      color: #f8428e;
       border-radius: 50%;
       padding: 0;
       width: 60px;

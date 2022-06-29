@@ -1,10 +1,11 @@
+import Home from "../Components/MainPage/Home";
 
-const LandingPage = ({  }) => {
-    return (
-      <>
- 
-      </>
-    )
-  }
-  
-  export default LandingPage
+const LandingPage = ({}) => {
+  return (
+    <>
+      <Home />
+    </>
+  );
+};
+
+export default LandingPage;
