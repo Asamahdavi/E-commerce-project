@@ -70,7 +70,6 @@ button {
   box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
 }
 
-/*---------category----------*/
 .contentWidth {
   width: 77%;
 }
@@ -102,7 +101,6 @@ button {
   cursor: pointer;
 }
 
-/*---------category----------*/
 .btn-primary {
   background: #e94560;
   padding: 13px 40px;

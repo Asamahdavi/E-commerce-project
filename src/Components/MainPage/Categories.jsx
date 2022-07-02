@@ -1,5 +1,5 @@
 import React from "react";
-import { k } from "../Assets/category/cat2.png";
+
 const Categories = () => {
   const data = [
     {
@@ -43,7 +43,7 @@ const Categories = () => {
       cateName: "Groceries",
     },
     {
-      cateImg: "../Assets/category/cat11.png",
+      cateImg: "../Assets/category/books.png",
       cateName: "Books",
     },
   ];
