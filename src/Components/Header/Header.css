@@ -1,5 +1,6 @@
 .head {   
     padding: 10px 0;
+    background-color: #306ecc;
   }
   .head i {
     margin-right: 10px;
@@ -95,7 +96,7 @@
     font-weight: 400;
   }
   header ul li a:hover {
-    color: #31cec1;
+    color: #1ea1dd;
   }
   
   .open {

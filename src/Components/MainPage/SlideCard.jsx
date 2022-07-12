@@ -25,7 +25,7 @@ const SlideCard = () => {
                 <div className='left'>
                   <h1>{value.title}</h1>
                   <p>{value.desc}</p>
-                  <button className='btn-primary hover:shadow-lg hover:bg-teal-500  hover:text-white'>Visit Collections</button>
+                  <button className='btn-primary hover:shadow-lg hover:bg-sky-500  hover:text-white'>Visit Collections</button>
                 </div>
                 <div className='right'>
                   <img src={value.cover} alt='' />

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Components/header/Header";
+import Footer from "./Components/Footer/Footer";
 import LandingPage from "./pages/LandingPage"; 
 import "./App.css"
 import {BrowserRouter as Router, Switch ,Route,Link} from "react-router-dom";
@@ -17,7 +18,7 @@ function App() {
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
           </Route> */}
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );

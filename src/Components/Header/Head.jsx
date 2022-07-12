@@ -2,7 +2,7 @@ import React from "react";
 const Head = () => {
   return (
     <>
-      <section className="head bg-blue-900 text-sky-50 ">
+      <section className="head  text-sky-50 ">
         <div className="container flex">
           <div className="left row flex">
             <i className="fa fa-phone "> </i>
