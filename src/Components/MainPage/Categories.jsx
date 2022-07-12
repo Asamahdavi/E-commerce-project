@@ -3,57 +3,57 @@ import React from "react";
 const Categories = () => {
   const data = [
     {
-      cateImg: "",
+      cateImg: "./images/category/cat1.png",
       cateName: "Fashion",
     },
     {
-      cateImg: "../Assets/category/cat2.png",
+      cateImg: "./images/category/cat2.png",
       cateName: "Electronic",
     },
     {
-      cateImg: "../Assets/category/cat3.png",
+      cateImg: "./images/category/cat3.png",
       cateName: "Cars",
     },
     {
-      cateImg: "../Assets/category/cat4.png",
+      cateImg: "./images/category/cat4.png",
       cateName: "Home & Garden",
     },
     {
-      cateImg: "../Assets/category/cat5.png",
+      cateImg: "./images/category/cat5.png",
       cateName: "Gifts",
     },
     {
-      cateImg: "../Assets/category/cat6.png",
+      cateImg: "./images/category/cat6.png",
       cateName: "Music",
     },
     {
-      cateImg: "../Assets/category/cat7.png",
+      cateImg: "./images/category/cat7.png",
       cateName: "Health & Beauty",
     },
     {
-      cateImg: "../Assets/category/cat8.png",
+      cateImg: "./images/category/cat8.png",
       cateName: "Pets",
     },
     {
-      cateImg: "../Assets/category/cat9.png",
+      cateImg: "./images/category/cat9.png",
       cateName: "Baby Toys",
     },
     {
-      cateImg: "../Assets/category/cat10.png",
+      cateImg: "./images/category/cat10.png",
       cateName: "Groceries",
     },
     {
-      cateImg: "../Assets/category/books.png",
+      cateImg: "./images/category/cat11.png",
       cateName: "Books",
     },
   ];
 
   return (
     <>
-      <div className="category">
+      <div className="category ">
         {data.map((value, index) => {
           return (
-            <div className="box f_flex" key={index}>
+            <div className="box f_flex " key={index}>
               <img src={value.cateImg} alt="" />
               <span>{value.cateName}</span>
             </div>
