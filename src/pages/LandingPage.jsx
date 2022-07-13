@@ -1,9 +1,10 @@
 import Home from "../Components/MainPage/Home";
-
-const LandingPage = ({}) => {
+import FlashDeals from "../Components/flashDeals/FlashDeals";
+const LandingPage = ({productItems}) => {
   return (
     <>
       <Home />
+      <FlashDeals productItems={productItems}  />
     </>
   );
 };

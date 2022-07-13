@@ -116,14 +116,14 @@ button {
   margin-top: 40px;
 }
 .heading i {
-  color: #db687b;
+  color: #fd316f;
   margin: 10px;
 }
 .discount {
   position: absolute;
   top: 0;
   left: 0;
-  background: #e94560;
+  background: #fa5989;
   padding: 3px 10px;
   font-size: 12px;
   border-radius: 50px;
@@ -145,28 +145,28 @@ button {
 }
 .product .rate i {
   font-size: 15px;
-  color: #ffcd4e;
+  color: #fada6f;
   margin: 5px 5px 5px 0;
 }
 .product .price {
   display: flex;
   justify-content: space-between;
-  color: #e94560;
+  color: #152a9c;
 }
 .price button {
-  background: none;
-  color: #e94560;
+  background: #7ecbff;
+  color: #160d66;
   font-size: 20px;
   transition: 0.5s;
-  border: 1px solid rgb(3 0 71 / 9%);
+  box-shadow: #0f3460;
   width: 35px;
   height: 35px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .price button:hover {
   cursor: pointer;
-  background-color: #e94560;
-  color: #fff;
+  background-color: #160d66;
+  color: #7ecbff;
 }
 .product-like {
   position: absolute;
@@ -199,10 +199,11 @@ button {
   width: 50px;
   height: 50px;
   line-height: 60px;
-  background: #0f3460;
+  background: #7ecbff;
   border-radius: 50%;
   transform: 0.5s;
   z-index: 5;
+  
 }
 .control-btn .prev {
   left: -20px;
@@ -218,7 +219,7 @@ button {
 }
 .control-btn .prev:hover,
 .control-btn .next:hover {
-  background: #e94560;
+  background: #e0367d;
   color: white;
   cursor: pointer;
 }
