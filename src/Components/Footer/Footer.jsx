@@ -35,12 +35,8 @@ const Footer = () => {
           <img src="https://img.icons8.com/material-sharp/24/ffffff/facebook-new.png" alt="" className="h-5 pl-1"/>
           </a>
         </div>
-      </div>
-            
+      </div>          
           </div>
-       
-   
-
           <div className="box">
             <h2 className="hover:text-yellow-400 hover:cursor-pointer">
               About Us
