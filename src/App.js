@@ -14,9 +14,13 @@ function App() {
   const { productItems } = Data;
   const { shopItems } = Mdata;
 
+
   //Step 2 :
   const [CartItem, setCartItem] = useState([])
-
+const [id, setId]= useState("")
+const idSetter=(id)=>{
+  setId(id)
+}
   //Step 4 :
   const addToCart = (product) => {
     // if hamro product alredy cart xa bhane  find garna help garxa
@@ -61,13 +65,13 @@ function App() {
         <Header  />
         <Switch>
           <Route path="/" exact>
-            <LandingPage productItems={productItems} addToCart={addToCart} shopItems={shopItems} />
+            <LandingPage productItems={productItems} addToCart={addToCart} shopItems={shopItems} id={id} />
           </Route>
           <Route path='/cart' exact>
             <Basket CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
           </Route>
           <Route path="/ProductDetailed">
-            <ProductDetailed />
+            <ProductDetailed idSetter={idSetter} productItems={productItems}  />
           </Route>
         </Switch>
         <Footer />

@@ -1,11 +1,11 @@
 import Home from "../Components/MainPage/Home";
 import FlashDeals from "../Components/flashDeals/FlashDeals";
 import ProductDetailed from "../Components/DetailedProduct/ProductDetailed";
-const LandingPage = ({productItems }) => {
+const LandingPage = ({productItems ,id, addToCart}) => {
   return (
     <>
-      <Home />
-      <FlashDeals productItems={productItems}  />
+      <Home  />
+      <FlashDeals productItems={productItems} id={id}  addToCart={addToCart}/>
       
     </>
   );
