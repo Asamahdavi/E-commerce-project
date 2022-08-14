@@ -2,7 +2,8 @@ import React, { useState } from "react"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-
+import { Link } from "react-router-dom"
+import ProductDetailed from "../DetailedProduct/ProductDetailed"
 const SampleNextArrow = (props) => {
   const { onClick } = props
   return (
@@ -23,7 +24,7 @@ const SamplePrevArrow = (props) => {
     </div>
   )
 }
-const FlashCard = ({ productItems, addToCart }) => {
+const FlashCard = ({ productItems, addToCart , id}) => {
   const [count, setCount] = useState(0)
   const increment = () => {
     setCount(count + 1)
@@ -37,15 +38,16 @@ const FlashCard = ({ productItems, addToCart }) => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   }
-
+{/* <ProductDetailed productItems={productItems} id={productItems.id}/> */}
   return (
     <>
       <Slider {...settings}>
         {productItems.map((productItems) => {
           return (
             <div className='box'>
-              <div className='product mtop'>
-                <div className='img'>
+              <div className='product mtop hover:cursor-pointer '>
+              
+                <div className='img' >
                   <span className='discount'>{productItems.discount}% Off</span>
                   <img src={productItems.cover} alt='' />
                   <div className='product-like'>
@@ -72,6 +74,7 @@ const FlashCard = ({ productItems, addToCart }) => {
                     </button>
                   </div>
                 </div>
+                
               </div>
             </div>
           )

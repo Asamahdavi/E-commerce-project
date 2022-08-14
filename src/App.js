@@ -6,6 +6,7 @@ import LandingPage from "./pages/LandingPage";
 import Data from "./Components/Assets/Data";
 import Mdata from "./Components/MobileSection/Mdata";
 import Basket from "./Components/Basket/Basket";
+import ProductDetailed from "./Components/DetailedProduct/ProductDetailed";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -64,6 +65,9 @@ function App() {
           </Route>
           <Route path='/cart' exact>
             <Basket CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
+          </Route>
+          <Route path="/ProductDetailed">
+            <ProductDetailed />
           </Route>
         </Switch>
         <Footer />

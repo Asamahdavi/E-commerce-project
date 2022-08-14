@@ -1,9 +1,10 @@
 import React from "react";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import Data from "../Components/Assets/Data";
 function Page() {
   const { productItems } = Data;
+ 
   return (
     <>
       <Router>
@@ -11,6 +12,7 @@ function Page() {
         <Switch>
           <Route path="/" exact>
             <LandingPage productItems={productItems} />
+            
           </Route>
           {/* <Route path='/cart' exact>
             <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} />
